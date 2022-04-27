@@ -1,0 +1,33 @@
+.counter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 50px;
+
+    div {
+      font-size: 32px;
+    }
+  }
+}
